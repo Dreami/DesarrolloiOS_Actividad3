@@ -1,0 +1,31 @@
+//Maple Zhang 2640197
+var variable1:Int = 200
+var variable2:Float = 0.499
+let variable3:String = "El perro llamado pegamento"
+
+var group1 = (variable1, variable2, variable3)
+var group2 = (x:1, y:2.25, z:"Se cayó y se pegó")
+var group3 = (4, 9.72, "Eso ya no da risa.")
+var group4 = (100, 2.8, "Que es eso? Eso es queso")
+
+var someInts:[Int] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+for everyInt in someInts {
+	print(everyInt)
+}
+
+print("\n----------\n")
+
+var daysOfWeek = [Int: String]()
+daysOfWeek[1] = "Lunes"
+daysOfWeek[2] = "Martes"
+daysOfWeek[3] = "Miercoles"
+daysOfWeek[4] = "Jueves"
+daysOfWeek[5] = "Viernes"
+daysOfWeek[6] = "Sabado"
+daysOfWeek[7] = "Domingo"
+
+for(numDate, nameDate) in daysOfWeek{
+	print("\(numDate): \(nameDate)")
+}
